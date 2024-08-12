@@ -159,6 +159,7 @@ a{
 .header-menu__list {
 display: inline-flex;
 align-items: center;
+flex-wrap: wrap;
 gap: 24px;
 }
 
@@ -189,3 +190,22 @@ text-align: right;
   color: var(--color-black);
 
 }
+@media (max-width: 1165px){
+  .header-menu{
+    order:1;
+    padding-top: 10px;
+  }
+}
+@media (max-width: 671px){
+  .header-action{
+    padding-top: 10px;
+  }
+  }
+@media (max-width: 449px){
+  .header-action{
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px;
+  }
+}
+
