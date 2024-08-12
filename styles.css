@@ -190,10 +190,15 @@ text-align: right;
   color: var(--color-black);
 
 }
-@media (max-width: 1165px){
+@media (max-width: 1170px){
+  .header-container{
+    display: flex;
+    justify-content: start;
+  }
   .header-menu{
     order:1;
     padding-top: 10px;
+    flex-basis: 100%;
   }
 }
 @media (max-width: 671px){
