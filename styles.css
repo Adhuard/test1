@@ -136,7 +136,7 @@ a{
 }
 .header-container{
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   padding-inline:40px;
   flex-wrap:wrap;
@@ -149,12 +149,15 @@ a{
 }
 
 .header-logo {
+  margin-right: 234px;
   font-weight: 700;
   font-size: 28px;
   color: var(--color-black);
 }
 
-
+.header-menu{
+  margin-right: 40px;
+}
 
 .header-menu__list {
 display: inline-flex;
